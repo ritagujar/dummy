@@ -1,7 +1,12 @@
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 function App() {
-  return <>YumYard</>;
+  return (
+    <div className="app">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
